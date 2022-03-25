@@ -1,0 +1,45 @@
+_id: req_a747e374bc1542a9a40d66b2f6dc39c4
+type: Request
+parentId: fld_2961918631a74560b0b4cafcd68f4e3c
+modified: 1648119381341
+created: 1648001608030
+url: http://127.0.0.1:8000/api/login
+name: Token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: username
+      value: egovaflavia
+      id: pair_835b136cf18e460cbed6e55baf08caec
+      disabled: false
+    - id: pair_c23a355dd55b438f8c87cd837f4191a9
+      name: password
+      value: asdasd12
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_6e07b3a7fc444a92b27dfc987aeead67
+    disabled: false
+  - id: pair_dcdd3a101d0348daa75eb83fca4c6f90
+    name: ""
+    value: egovaflavia
+    description: ""
+    disabled: true
+  - id: pair_5cf9a45f9f6941b3aed937dfccab99b3
+    name: password
+    value: asdasd12
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1648025721177
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

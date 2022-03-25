@@ -1,0 +1,45 @@
+_id: req_002c8fb290b143f0a7a1c61464aa8509
+type: Request
+parentId: fld_01fc3efcced348adb71193ee43fd7347
+modified: 1648040230683
+created: 1648026041119
+url: https://service.semenpadanghospital.co.id/api/token
+name: Web Token
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: username
+      value: egovaflavia
+      id: pair_835b136cf18e460cbed6e55baf08caec
+      disabled: false
+    - id: pair_c23a355dd55b438f8c87cd837f4191a9
+      name: password
+      value: asdasd12
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_6e07b3a7fc444a92b27dfc987aeead67
+    disabled: true
+  - id: pair_dcdd3a101d0348daa75eb83fca4c6f90
+    name: x-username
+    value: egovaflavia
+    description: ""
+    disabled: false
+  - id: pair_5cf9a45f9f6941b3aed937dfccab99b3
+    name: x-password
+    value: asdasd12
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1648025721152
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

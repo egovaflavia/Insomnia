@@ -1,0 +1,42 @@
+_id: req_aca40836f53c47c2b26615d52122db1b
+type: Request
+parentId: fld_01fc3efcced348adb71193ee43fd7347
+modified: 1648040216493
+created: 1648039981981
+url: https://service.semenpadanghospital.co.id/api/status
+name: Web Sisa
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{
+
+    \   \"kodepoli\": \"ANA\",
+
+    \   \"kodedokter\": 38234,
+
+    \   \"tanggalperiksa\": \"2022-03-25\",
+
+    \   \"jampraktek\": \"10:00-16:00\"
+
+    }
+
+    \   "
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_85514c3870814adfa30f0bc11c922e88
+  - id: pair_08c5e807fa454a698ca6ac8a68a09809
+    name: x-token
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1648025721027
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

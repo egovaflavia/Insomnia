@@ -1,0 +1,34 @@
+_id: req_624b7e1b8684431f8d33367c7bdde318
+type: Request
+parentId: fld_01fc3efcced348adb71193ee43fd7347
+modified: 1648040217111
+created: 1648026034369
+url: https://service.semenpadanghospital.co.id/api/batal
+name: Web Batal
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "kodebooking": "AN1505490A",
+    		"keterangan": "Ada kebutuhan mendadak"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_962624b3640d4919b2fe978a82731055
+  - id: pair_9b0df6a966ee45b6ab1e76d33e89dda3
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1648025721102
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

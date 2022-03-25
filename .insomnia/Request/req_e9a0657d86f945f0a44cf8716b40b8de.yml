@@ -1,0 +1,42 @@
+_id: req_e9a0657d86f945f0a44cf8716b40b8de
+type: Request
+parentId: fld_01fc3efcced348adb71193ee43fd7347
+modified: 1648040219002
+created: 1648026049017
+url: https://service.semenpadanghospital.co.id/api/ambil_antrean
+name: Web Ambil Antrean
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "nomorkartu"    : "0001823394993",
+        "nik"           : "",
+        "nohp"          : "085635228888",
+        "kodepoli"      : "ANA",
+        "norm"          : "",
+        "tanggalperiksa": "2022-03-25",
+        "kodedokter"    : 38234,
+        "jampraktek"    : "10:00-16:00",
+        "jeniskunjungan": 1,
+        "nomorreferensi": "0001R0040116A000001"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_25f12ac60d0341908a6b0656293370b9
+  - id: pair_6444a1d941e145ae9b881a6981742659
+    name: x-token
+    value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTY0ODAwMjE3MSwiZXhwIjoxNjQ4MDA1NzcxLCJuYmYiOjE2NDgwMDIxNzEsImp0aSI6Im1PUlZ6bTUwRldDSXdDaU8iLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.qSJXsyAYaKBlCx7SOtrLMKtx8QdkavWQRvTM3NQgjzM
+    description: ""
+authentication: {}
+metaSortKey: -1648025721127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

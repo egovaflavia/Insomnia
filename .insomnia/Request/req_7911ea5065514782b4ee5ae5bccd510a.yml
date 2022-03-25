@@ -1,0 +1,34 @@
+_id: req_7911ea5065514782b4ee5ae5bccd510a
+type: Request
+parentId: fld_2961918631a74560b0b4cafcd68f4e3c
+modified: 1648089956174
+created: 1648025721127
+url: http://127.0.0.1:8000/api/batal
+name: Batal
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "kodebooking": "AN1505493A",
+    		"keterangan": "Ada kebutuhan mendadak"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_962624b3640d4919b2fe978a82731055
+  - id: pair_ad6c149622894800a2dc52765af846ca
+    name: x-token
+    value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTY0ODAzODIzNCwiZXhwIjoxNjQ4MDQxODM0LCJuYmYiOjE2NDgwMzgyMzQsImp0aSI6InZpaGg0OWFMVUl5NURFTm4iLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Z0J-13RETi8ve0AjHzf0zrXjjbHZt7orlhw6a0wySvo
+    description: ""
+authentication: {}
+metaSortKey: -1648025721127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
