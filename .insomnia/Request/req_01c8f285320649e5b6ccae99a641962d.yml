@@ -1,0 +1,30 @@
+_id: req_01c8f285320649e5b6ccae99a641962d
+type: Request
+parentId: fld_00ea32e9e7c34d68ac196438edc369cc
+modified: 1648216891024
+created: 1648212422365
+url: http://127.0.0.1:8000/api/v2/jadwal_operasi_rs
+name: Jadwal Operasi Rumah Sakit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "tanggalawal": "2022-01-01",
+        "tanggalakhir": "2022-01-12"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_38d7594f78414658a850548a2c6177dd
+authentication: {}
+metaSortKey: -1648212422365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

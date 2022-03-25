@@ -1,0 +1,38 @@
+_id: req_171ee53473574a2c99590ebe48e7bcfa
+type: Request
+parentId: fld_00ea32e9e7c34d68ac196438edc369cc
+modified: 1648216898241
+created: 1648213521252
+url: http://127.0.0.1:8000/api/v2/ambil_antrian
+name: Ambil Antrean
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nomorkartu": "0001823394993",
+    	"nik": "3212345678987654",
+    	"nohp": "085635228888",
+    	"kodepoli": "ANA",
+    	"norm": "137130500172485",
+    	"tanggalperiksa": "2022-03-28",
+    	"kodedokter": 38234,
+    	"jampraktek": "10:00-16:00",
+    	"jeniskunjungan": 1,
+    	"nomorreferensi": "0001R0040116A000001"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1c552973a2d54898939011b193965589
+authentication: {}
+metaSortKey: -1648165850264.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

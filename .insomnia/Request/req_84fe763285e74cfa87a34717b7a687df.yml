@@ -1,0 +1,29 @@
+_id: req_84fe763285e74cfa87a34717b7a687df
+type: Request
+parentId: fld_00ea32e9e7c34d68ac196438edc369cc
+modified: 1648218260434
+created: 1648212936907
+url: http://127.0.0.1:8000/api/v2/jadwal_operasi_pasien
+name: Jadwal Operasi Pasien
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "nopeserta": "0002783859772"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_38d7594f78414658a850548a2c6177dd
+authentication: {}
+metaSortKey: -1648165850314.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
