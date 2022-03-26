@@ -1,7 +1,7 @@
 _id: req_130253b40caf4c98ae8d8863abea5868
 type: Request
 parentId: fld_2961918631a74560b0b4cafcd68f4e3c
-modified: 1648119449696
+modified: 1648293160114
 created: 1647998115945
 url: http://127.0.0.1:8000/api/ambil_antrean
 name: Ambil Antrean
@@ -12,11 +12,11 @@ body:
   text: |-
     {
         "nomorkartu"    : "0001186521535",
-        "nik"           : "",
-        "nohp"          : "0001186521535",
+        "nik"           : "12345678",
+        "nohp"          : "0819629431",
         "kodepoli"      : "ANA",
-        "norm"          : "",
-        "tanggalperiksa": "2022-03-25",
+        "norm"          : "1111111111111",
+        "tanggalperiksa": "2022-03-28",
         "kodedokter"    : 38234,
         "jampraktek"    : "10:00-16:00",
         "jeniskunjungan": 1,
@@ -29,7 +29,7 @@ headers:
     id: pair_25f12ac60d0341908a6b0656293370b9
   - id: pair_6444a1d941e145ae9b881a6981742659
     name: x-token
-    value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTY0ODA4NTUyOSwiZXhwIjoxNjQ4MDg5MTI5LCJuYmYiOjE2NDgwODU1MjksImp0aSI6IlRVVDNPeUhXNFUwZmFzMzQiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.kaOWtjo8B5Ot3vBJOWPlruQVJZssepUNghhn_tCmmOw
+    value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTY0ODIyNjExNSwiZXhwIjoxNjQ4MjI5NzE1LCJuYmYiOjE2NDgyMjYxMTUsImp0aSI6InVteFhRYnJObzZVcFVLeEYiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DgjmTS7-wMxV_TKAh_6oyILss3C0bz_jp5rUGiSaROI
     description: ""
 authentication: {}
 metaSortKey: -1648025721152

@@ -1,9 +1,9 @@
 _id: req_aca40836f53c47c2b26615d52122db1b
 type: Request
 parentId: fld_01fc3efcced348adb71193ee43fd7347
-modified: 1648212319697
+modified: 1648294167559
 created: 1648039981981
-url: https://service.semenpadanghospital.co.id/api/status
+url: https://service.semenpadanghospital.co.id/api/v2/status
 name: Web Sisa
 description: ""
 method: POST

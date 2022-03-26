@@ -1,0 +1,36 @@
+_id: req_d6ccb4df0e7c43349e11e126d985f1cd
+type: Request
+parentId: fld_01fc3efcced348adb71193ee43fd7347
+modified: 1648294171697
+created: 1648293932171
+url: https://service.semenpadanghospital.co.id/api/v2/checkin
+name: Web Checkin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "                                               \ 
+
+    {
+
+    \    \"kodebooking\": \"AN1505500A\",
+
+    \    \"waktu\": 1616559330000
+
+    }
+
+    \     "
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3c9fcc6c154e41b2ab6b7c81691e6d63
+authentication: {}
+metaSortKey: -1648025721020.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

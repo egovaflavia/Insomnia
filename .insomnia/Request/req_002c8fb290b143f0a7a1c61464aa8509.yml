@@ -1,9 +1,9 @@
 _id: req_002c8fb290b143f0a7a1c61464aa8509
 type: Request
 parentId: fld_01fc3efcced348adb71193ee43fd7347
-modified: 1648040230683
+modified: 1648294152613
 created: 1648026041119
-url: https://service.semenpadanghospital.co.id/api/token
+url: https://service.semenpadanghospital.co.id/api/v2/token
 name: Web Token
 description: ""
 method: GET

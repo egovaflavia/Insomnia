@@ -1,0 +1,29 @@
+_id: req_c768e6399fd14b7ab1ec81af2a062601
+type: Request
+parentId: fld_2961918631a74560b0b4cafcd68f4e3c
+modified: 1648293162299
+created: 1648277273505
+url: http://127.0.0.1:8000/api/sisa
+name: Sisa
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "kodebooking": "AN1555711A"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_16773c2a43c6484e851164e763eff2ec
+authentication: {}
+metaSortKey: -1648025721133.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

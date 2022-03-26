@@ -1,30 +1,28 @@
-_id: req_624b7e1b8684431f8d33367c7bdde318
+_id: req_45f723ef4afc4f1f9b10d0b9d6634a1d
 type: Request
 parentId: fld_01fc3efcced348adb71193ee43fd7347
-modified: 1648294160441
-created: 1648026034369
-url: https://service.semenpadanghospital.co.id/api/v2/batal
-name: Web Batal
+modified: 1648294190408
+created: 1648293945436
+url: https://service.semenpadanghospital.co.id/api/v2/status
+name: Web Status
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-        "kodebooking": "AN1505490A",
-    		"keterangan": "Ada kebutuhan mendadak"
+       "kodepoli": "MAT",
+       "kodedokter": 43615,
+       "tanggalperiksa": "2022-03-26",
+       "jampraktek": "10:00-16:00"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_962624b3640d4919b2fe978a82731055
-  - id: pair_9b0df6a966ee45b6ab1e76d33e89dda3
-    name: ""
-    value: ""
-    description: ""
+    id: pair_16773c2a43c6484e851164e763eff2ec
 authentication: {}
-metaSortKey: -1648025721102
+metaSortKey: -1648025721017.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

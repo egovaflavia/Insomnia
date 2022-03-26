@@ -1,0 +1,32 @@
+_id: req_919f73e2905f4da6ba6e108ff37c6fc4
+type: Request
+parentId: fld_2961918631a74560b0b4cafcd68f4e3c
+modified: 1648293941559
+created: 1648258886555
+url: ""
+name: Status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "kodepoli": "MAT",
+       "kodedokter": 43615,
+       "tanggalperiksa": "2022-03-26",
+       "jampraktek": "10:00-16:00"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_16773c2a43c6484e851164e763eff2ec
+authentication: {}
+metaSortKey: -1648025721139.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

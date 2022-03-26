@@ -1,17 +1,17 @@
-_id: req_bc00233d9a7d4652ba22da96c1680f9e
+_id: req_6b6fe39ab5ea4bb2832e9d057bdf1fd0
 type: Request
 parentId: fld_01fc3efcced348adb71193ee43fd7347
-modified: 1648294182633
-created: 1648040105618
+modified: 1648294187279
+created: 1648293916973
 url: https://service.semenpadanghospital.co.id/api/v2/jadwal_operasi_pasien
-name: Web Jadwal Operasi Pasien
+name: Web Jadwal Operasi Rumah Sakit
 description: ""
 method: POST
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1648025721014.5
+metaSortKey: -1648025720964.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
