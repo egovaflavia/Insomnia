@@ -1,7 +1,7 @@
 _id: req_01c8f285320649e5b6ccae99a641962d
 type: Request
 parentId: fld_00ea32e9e7c34d68ac196438edc369cc
-modified: 1648216891024
+modified: 1648223053136
 created: 1648212422365
 url: http://127.0.0.1:8000/api/v2/jadwal_operasi_rs
 name: Jadwal Operasi Rumah Sakit
